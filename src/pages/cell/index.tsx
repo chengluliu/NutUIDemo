@@ -3,12 +3,6 @@ import { useDidShow } from "@tarojs/taro";
 import { Button, Cell } from "@nutui/nutui-react-taro";
 
 const Index = () => {
-  return (
-    <>
-      <Button shape="square" plain type="primary" icon="star-fill" />
-
-      <Cell title="我的追剧" replace={true} to="/pages/cell/index" />
-    </>
-  );
+  return <>cell page</>;
 };
 export default Index;
